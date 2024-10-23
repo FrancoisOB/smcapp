@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "SM_CApp",
+    "slug": "smcapp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -13,13 +13,15 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.francoisobe.smcapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.francoisobe.smcapp"
     },
     "web": {
       "bundler": "metro",
@@ -31,6 +33,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0de2b90c-9115-48b0-a9c3-39734c84dd29"
+      }
+    },
+    "owner": "francois.obe",
+    "updates": {
+      "url": "https://u.expo.dev/0de2b90c-9115-48b0-a9c3-39734c84dd29"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
